@@ -26,7 +26,7 @@ And return
 
 ## Tested Environments
 - Windows 10 64-bit Microsoft Visual C++ 14.34, Powershell 5.1
-- Melissa data files for 2024-09
+- Melissa data files for 2024-10
 - Nmake 14.34
 - Visual Studio 2022 Developer Command Prompt v17.4.2 64-bit
 
@@ -64,8 +64,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/NameObject-Cpp
-$ cd NameObject-Cpp
+git clone https://github.com/MelissaData/NameObject-Cpp
+cd NameObject-Cpp
 ```
 
 #### Set up Melissa Updater 
@@ -99,24 +99,24 @@ When you have modified the script to match your data location, let's run the scr
 
     The script will prompt the user for a name, then use the provided name to test Name Object. For example:
     ```
-    $ .\MelissaNameObjectWindowsCpp.ps1
+    .\MelissaNameObjectWindowsCpp.ps1
     ```
     For quiet mode:
     ```
-    $ .\MelissaNameObjectWindowsCpp.ps1 -quiet
+    .\MelissaNameObjectWindowsCpp.ps1 -quiet
     ```
     
 - Command Line 
 
     You can pass a name in ```-name``` parameter and a license string in ```-license``` parameter to test Name Object. For example:
     ```
-    $ .\MelissaNameObjectWindowsCpp.ps1 -name "Ray Melissa"
-    $ .\MelissaNameObjectWindowsCpp.ps1 -name "Ray Melissa" -license "<your_license_string>"
+    .\MelissaNameObjectWindowsCpp.ps1 -name "Ray Melissa"
+    .\MelissaNameObjectWindowsCpp.ps1 -name "Ray Melissa" -license "<your_license_string>"
     ```
     For quiet mode:
     ```
-    $ .\MelissaNameObjectWindowsCpp.ps1 -name "Ray Melissa" -quiet
-    $ .\MelissaNameObjectWindowsCpp.ps1 -name "Ray Melissa" -license "<your_license_string>" -quiet
+    .\MelissaNameObjectWindowsCpp.ps1 -name "Ray Melissa" -quiet
+    .\MelissaNameObjectWindowsCpp.ps1 -name "Ray Melissa" -license "<your_license_string>" -quiet
     ```
 	
 This is the expected output from a successful setup for interactive mode:
