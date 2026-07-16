@@ -64,8 +64,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-git clone https://git.melissadata.com/dtgroup/melissadataobjectexamples/cpp/melissanameobjectwindowscpp.git
-cd melissanameobjectwindowscpp
+git clone https://github.com/MelissaData/NameObject-Cpp
+cd NameObject-Cpp
 ```
 
 #### Set up Melissa Updater 
